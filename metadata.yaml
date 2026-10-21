@@ -1,0 +1,9 @@
+name: astrbot_plugin_yuanbao_search
+display_name: 元宝搜索
+short_desc: 基于腾讯云元宝搜索的实时联网搜索工具，支持权威信源、垂直领域与时效过滤。
+desc: 为 AstrBot 提供每月 2000次 的免费腾讯生态实时联网检索能力。支持网页信源、优质权威垂直信源、混合结果，并可按站点、垂直领域与时间范围精细过滤，可以让 Bot 在回答中获取实时外部信息。
+help: 使用 /元宝搜索 关键词 进行搜索；/元宝搜索 关键词 mode=2 cnt=20 industry=news freshness=d7 指定检索策略。也可以让 LLM 自动调用 yuanbao_search 工具。
+version: 1.0.0
+author: 往昔的涟漪
+repo: https://github.com/CyreneLian/astrbot_plugin_yuanbao_search
+astrbot_version: ">=4.16"

@@ -1,0 +1,14 @@
+{
+  "secret_id": {
+    "description": "SecretId",
+    "type": "string",
+    "hint": "前往腾讯云官网 https://cloud.tencent.com 搜索 元宝搜索 进入控制台免费获取。",
+    "default": ""
+  },
+  "secret_key": {
+    "description": "SecretKey",
+    "type": "string",
+    "hint": "前往腾讯云官网 https://cloud.tencent.com 搜索 元宝搜索 进入控制台免费获取。",
+    "default": ""
+  }
+}
